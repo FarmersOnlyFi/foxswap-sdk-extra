@@ -1,4 +1,4 @@
-import { ChainId, Currency, ETHER, HARMONY, BINANCE_COIN } from '@venomswap/sdk'
+import { ChainId, Currency, ETHER, HARMONY, BINANCE_COIN } from '@foxswap/sdk'
 import random from 'lodash.random'
 
 /**

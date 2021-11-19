@@ -1179,6 +1179,19 @@
     "@ethersproject/properties" "^5.5.0"
     "@ethersproject/strings" "^5.5.0"
 
+"@foxswap/sdk@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@foxswap/sdk/-/sdk-1.1.4.tgz#604cb9a4f2699a4223f40e7a6c5507d3fec6f4d2"
+  integrity sha512-nQZZs/Uvs38hYlkSZul8WxcaN7+eDXbIp1xqJqLgp5c7IRufvkXYIrIfSlV4dDdm3Q7rFV5V++95aEyTrBaUbA==
+  dependencies:
+    "@venomswap/core" "^1.0.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -1660,19 +1673,6 @@
   resolved "https://registry.yarnpkg.com/@venomswap/default-token-list/-/default-token-list-5.3.0.tgz#3d1111940efc7863a10ae707c63eb08721490ada"
   integrity sha512-A6Uben5EE/xQAeRzDoUtzSPEFi+QCwC4Eig/vHUO/bzZJLSM97uUg1ve9y3OyFLahwRf10ykvfrLxm2QQkABHQ==
 
-"@venomswap/sdk@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@venomswap/sdk/-/sdk-1.1.2.tgz#f2f94112677a21033575c805cf57e04ade6f38e0"
-  integrity sha512-2UWpiH2Tz26TsF06iISTbmGSD/ARP1Y14kz7brDay2bE6S9fH19/CEs7caRnYaC2Hqu3nqpbGLSDerzI4Y9xHQ==
-  dependencies:
-    "@venomswap/core" "^1.0.0"
-    big.js "^6.1.1"
-    decimal.js-light "^2.5.1"
-    jsbi "^3.1.5"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
-
 abab@^2.0.0:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.5.tgz#c0b678fb32d60fc1219c784d6a826fe385aeb79a"
@@ -2077,10 +2077,10 @@ bech32@1.1.4:
   resolved "https://registry.yarnpkg.com/bech32/-/bech32-1.1.4.tgz#e38c9f37bf179b8eb16ae3a772b40c356d4832e9"
   integrity sha512-s0IrSOzLlbvX7yp4WBfPITzpAU8sqQcpsmwXDiKwrG4r491vwCO/XpejasRNl0piBMe/DvP4Tz0mIS/X1DPJBQ==
 
-big.js@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/big.js/-/big.js-6.1.1.tgz#63b35b19dc9775c94991ee5db7694880655d5537"
-  integrity sha512-1vObw81a8ylZO5ePrtMay0n018TcftpTA5HFKDaSuiUDBo8biRBtjIobw60OpwuvrGk+FsxKamqN4cnmj/eXdg==
+big.js@^5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/big.js/-/big.js-5.2.2.tgz#65f0af382f578bcdc742bd9c281e9cb2d7768328"
+  integrity sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==
 
 bn.js@^4.11.9:
   version "4.12.0"
@@ -2512,7 +2512,7 @@ decamelize@^1.2.0:
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
-decimal.js-light@^2.5.1:
+decimal.js-light@^2.5.0:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/decimal.js-light/-/decimal.js-light-2.5.1.tgz#134fd32508f19e208f4fb2f8dac0d2626a867934"
   integrity sha512-qIMFpTMZmny+MMIitAB6D7iVPEorVw6YQRWkvarTkT4tBeSLLiHzcwj6q0MmYSFCiVpiqPJTJEYIrpcPzVEIvg==
@@ -4337,7 +4337,7 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-jsbi@^3.1.5:
+jsbi@^3.1.1:
   version "3.2.5"
   resolved "https://registry.yarnpkg.com/jsbi/-/jsbi-3.2.5.tgz#b37bb90e0e5c2814c1c2a1bcd8c729888a2e37d6"
   integrity sha512-aBE4n43IPvjaddScbvWRA2YlTzKEynHzu7MqOyTipdHucf/VxS63ViCjxYRg86M8Rxwbt/GfzHl1kKERkt45fQ==

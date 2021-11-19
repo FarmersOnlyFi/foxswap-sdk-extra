@@ -13,7 +13,7 @@
     "ethereum",
     "bsc",
     "harmony",
-    "venomswap"
+    "foxswap"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
