@@ -1,5 +1,5 @@
-import DEFAULT_TOKEN_LIST from '@venomswap/default-token-list'
-import COMMUNITY_TOKEN_LIST from '@venomswap/community-token-list'
+import DEFAULT_TOKEN_LIST from '@foxswap/default-token-list'
+import COMMUNITY_TOKEN_LIST from '@foxswap/community-token-list'
 import { ChainId, Token } from '@foxswap/sdk'
 
 export interface TokenListToken {

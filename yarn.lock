@@ -1184,7 +1184,7 @@
   resolved "https://registry.yarnpkg.com/@foxswap/sdk/-/sdk-1.1.4.tgz#604cb9a4f2699a4223f40e7a6c5507d3fec6f4d2"
   integrity sha512-nQZZs/Uvs38hYlkSZul8WxcaN7+eDXbIp1xqJqLgp5c7IRufvkXYIrIfSlV4dDdm3Q7rFV5V++95aEyTrBaUbA==
   dependencies:
-    "@venomswap/core" "^1.0.0"
+    "@foxswap/core" "^1.0.0"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
     jsbi "^3.1.1"
@@ -1658,19 +1658,19 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@venomswap/community-token-list@^2.3.1":
+"@foxswap/community-token-list@^2.3.1":
   version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@venomswap/community-token-list/-/community-token-list-2.3.1.tgz#716fc245cb27ccf2a02857ad80fb4f52e4a5eadb"
+  resolved "https://registry.yarnpkg.com/@foxswap/community-token-list/-/community-token-list-2.3.1.tgz#716fc245cb27ccf2a02857ad80fb4f52e4a5eadb"
   integrity sha512-rSKhYMzDRDFZGKX2MmuizNoGbdKkbFYo+mFdKJkZzZXGxP/wv4P/4IZsORSlSiXkV22mXBZ0pWNrh0+txO0Irw==
 
-"@venomswap/core@^1.0.0":
+"@foxswap/core@^1.0.0":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@venomswap/core/-/core-1.0.0.tgz#f1336702e8ecce6b79b06212220da43a34b3749c"
+  resolved "https://registry.yarnpkg.com/@foxswap/core/-/core-1.0.0.tgz#f1336702e8ecce6b79b06212220da43a34b3749c"
   integrity sha512-cd4+e5KKH7QmSjMhe50lty35eHuZVTh9YYnkWPdQPe6KG3R5P5JE3LFliwNLpuV4jWEYYRlEa3OaG3ie+BlYrg==
 
-"@venomswap/default-token-list@^5.3.0":
+"@foxswap/default-token-list@^5.3.0":
   version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@venomswap/default-token-list/-/default-token-list-5.3.0.tgz#3d1111940efc7863a10ae707c63eb08721490ada"
+  resolved "https://registry.yarnpkg.com/@foxswap/default-token-list/-/default-token-list-5.3.0.tgz#3d1111940efc7863a10ae707c63eb08721490ada"
   integrity sha512-A6Uben5EE/xQAeRzDoUtzSPEFi+QCwC4Eig/vHUO/bzZJLSM97uUg1ve9y3OyFLahwRf10ykvfrLxm2QQkABHQ==
 
 abab@^2.0.0:
