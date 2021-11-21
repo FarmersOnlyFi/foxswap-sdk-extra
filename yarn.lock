@@ -1179,10 +1179,20 @@
     "@ethersproject/properties" "^5.5.0"
     "@ethersproject/strings" "^5.5.0"
 
-"@foxswap/sdk@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@foxswap/sdk/-/sdk-1.1.4.tgz#604cb9a4f2699a4223f40e7a6c5507d3fec6f4d2"
-  integrity sha512-nQZZs/Uvs38hYlkSZul8WxcaN7+eDXbIp1xqJqLgp5c7IRufvkXYIrIfSlV4dDdm3Q7rFV5V++95aEyTrBaUbA==
+"@foxswap/community-token-list@^2.3.2":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@foxswap/community-token-list/-/community-token-list-2.3.3.tgz#fcdd42524d903b372fdb33c19e1829ae28b4a536"
+  integrity sha512-xFc6cAbyuLFhmmGuQxFXlvM8+Qdh0JG3JdX47B+OyRQIYy6PwuorvpZLrAvMX48SetzWTTnLx130GDVuUO2Raw==
+
+"@foxswap/core@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@foxswap/core/-/core-1.0.0.tgz#4002ddfecd4dd9e3cbe04f2e404a088c12ea7641"
+  integrity sha512-94hPc6avu2nfVntXcccq8wo/zkh37I2qC0IxELYUUepR1OVUBPrCKPJFERXD2GWB4RsbtsRgAhd+3Ki5ho4hHA==
+
+"@foxswap/sdk@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@foxswap/sdk/-/sdk-1.1.5.tgz#79d1e90740b0ac569093a9d979c27cb7fbf862e3"
+  integrity sha512-hCBWXp2e5lrlg05BHc7SKz/V25iCbg6Vu/uWamj0o9AFy6uZzY81InOmN6X2WLSGZdqj8ZDnx/WXftVqhC6jgg==
   dependencies:
     "@foxswap/core" "^1.0.0"
     big.js "^5.2.2"
@@ -1658,19 +1668,9 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@foxswap/community-token-list@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@foxswap/community-token-list/-/community-token-list-2.3.1.tgz#716fc245cb27ccf2a02857ad80fb4f52e4a5eadb"
-  integrity sha512-rSKhYMzDRDFZGKX2MmuizNoGbdKkbFYo+mFdKJkZzZXGxP/wv4P/4IZsORSlSiXkV22mXBZ0pWNrh0+txO0Irw==
-
-"@foxswap/core@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@foxswap/core/-/core-1.0.0.tgz#f1336702e8ecce6b79b06212220da43a34b3749c"
-  integrity sha512-cd4+e5KKH7QmSjMhe50lty35eHuZVTh9YYnkWPdQPe6KG3R5P5JE3LFliwNLpuV4jWEYYRlEa3OaG3ie+BlYrg==
-
-"@foxswap/default-token-list@^5.3.0":
+"@venomswap/default-token-list@^5.3.0":
   version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@foxswap/default-token-list/-/default-token-list-5.3.0.tgz#3d1111940efc7863a10ae707c63eb08721490ada"
+  resolved "https://registry.yarnpkg.com/@venomswap/default-token-list/-/default-token-list-5.3.0.tgz#3d1111940efc7863a10ae707c63eb08721490ada"
   integrity sha512-A6Uben5EE/xQAeRzDoUtzSPEFi+QCwC4Eig/vHUO/bzZJLSM97uUg1ve9y3OyFLahwRf10ykvfrLxm2QQkABHQ==
 
 abab@^2.0.0:
