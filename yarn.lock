@@ -1189,6 +1189,11 @@
   resolved "https://registry.yarnpkg.com/@foxswap/core/-/core-1.0.0.tgz#4002ddfecd4dd9e3cbe04f2e404a088c12ea7641"
   integrity sha512-94hPc6avu2nfVntXcccq8wo/zkh37I2qC0IxELYUUepR1OVUBPrCKPJFERXD2GWB4RsbtsRgAhd+3Ki5ho4hHA==
 
+"@foxswap/default-token-list@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@foxswap/default-token-list/-/default-token-list-2.1.1.tgz#a3f663e4df7c2557d97e69420264141e194ee1a5"
+  integrity sha512-iPJzPp9rx60kn7SggMmUN3cxXMRQqdGa0Uc95X0owPyCbONGIMt0nQcF5o8WFKNUO5SwVxfehTJzPvkRpED6Qg==
+
 "@foxswap/sdk@^1.1.5":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@foxswap/sdk/-/sdk-1.1.5.tgz#79d1e90740b0ac569093a9d979c27cb7fbf862e3"
@@ -1667,11 +1672,6 @@
     lodash "^4.17.15"
     semver "^7.3.2"
     tsutils "^3.17.1"
-
-"@venomswap/default-token-list@^5.3.0":
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/@venomswap/default-token-list/-/default-token-list-5.3.0.tgz#3d1111940efc7863a10ae707c63eb08721490ada"
-  integrity sha512-A6Uben5EE/xQAeRzDoUtzSPEFi+QCwC4Eig/vHUO/bzZJLSM97uUg1ve9y3OyFLahwRf10ykvfrLxm2QQkABHQ==
 
 abab@^2.0.0:
   version "2.0.5"
