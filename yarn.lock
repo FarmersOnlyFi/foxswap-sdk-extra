@@ -1184,22 +1184,22 @@
   resolved "https://registry.yarnpkg.com/@foxswap/community-token-list/-/community-token-list-2.3.3.tgz#fcdd42524d903b372fdb33c19e1829ae28b4a536"
   integrity sha512-xFc6cAbyuLFhmmGuQxFXlvM8+Qdh0JG3JdX47B+OyRQIYy6PwuorvpZLrAvMX48SetzWTTnLx130GDVuUO2Raw==
 
-"@foxswap/core@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@foxswap/core/-/core-1.0.0.tgz#4002ddfecd4dd9e3cbe04f2e404a088c12ea7641"
-  integrity sha512-94hPc6avu2nfVntXcccq8wo/zkh37I2qC0IxELYUUepR1OVUBPrCKPJFERXD2GWB4RsbtsRgAhd+3Ki5ho4hHA==
+"@foxswap/core@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@foxswap/core/-/core-1.0.1.tgz#8e8dbb567bf50154d5158183afa7eb78ad7efa85"
+  integrity sha512-UWpJJsOc0sAkRtViggJ/ACLCAGgVbgJ1TsXdJsHdM0NOZ8LQB4bhzKNPb8+x/rAIOFSRQA10hyWu+ZZtSP/QfQ==
 
-"@foxswap/default-token-list@^2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@foxswap/default-token-list/-/default-token-list-2.1.1.tgz#a3f663e4df7c2557d97e69420264141e194ee1a5"
-  integrity sha512-iPJzPp9rx60kn7SggMmUN3cxXMRQqdGa0Uc95X0owPyCbONGIMt0nQcF5o8WFKNUO5SwVxfehTJzPvkRpED6Qg==
+"@foxswap/default-token-list@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@foxswap/default-token-list/-/default-token-list-2.1.2.tgz#70a78c49a7fb975669f8a0d2a59f35f3ac139af0"
+  integrity sha512-2r5MnFMfCs8NJrUIiXr3nfinvANe0cR+kEJITotS8i5K55NFWe+jTboUiF4cfG42dUSzVtN1Gmo/VL7dIJX7FA==
 
-"@foxswap/sdk@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@foxswap/sdk/-/sdk-1.1.5.tgz#79d1e90740b0ac569093a9d979c27cb7fbf862e3"
-  integrity sha512-hCBWXp2e5lrlg05BHc7SKz/V25iCbg6Vu/uWamj0o9AFy6uZzY81InOmN6X2WLSGZdqj8ZDnx/WXftVqhC6jgg==
+"@foxswap/sdk@^1.1.7":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@foxswap/sdk/-/sdk-1.1.7.tgz#6a6dc7e485b1152256745b77a27507a1686ce48c"
+  integrity sha512-+nz7yGp2vw873AKZpwTqbzDevTs+z32wBzedUHdP6MBvTMkymiwQxZGDNkMQ2AeF5tkNs3t3SVelkVEIPLdjGg==
   dependencies:
-    "@foxswap/core" "^1.0.0"
+    "@foxswap/core" "^1.0.1"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
     jsbi "^3.1.1"
