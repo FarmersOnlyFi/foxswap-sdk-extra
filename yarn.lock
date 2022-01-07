@@ -1194,10 +1194,10 @@
   resolved "https://registry.yarnpkg.com/@foxswap/default-token-list/-/default-token-list-2.1.4.tgz#3a16d746e2ba77221bbc3ec13cd190178fcf19c9"
   integrity sha512-TcLV/pPxyjS3tkT5Ah/Y2VOQLl0HbuYZtpLEtHxitZKsKn7yUdtsErX5mDRLAweyuYel8EDVoQpOSGBW1lhJRQ==
 
-"@foxswap/sdk@^1.1.7":
-  version "1.1.7"
-  resolved "https://registry.yarnpkg.com/@foxswap/sdk/-/sdk-1.1.7.tgz#6a6dc7e485b1152256745b77a27507a1686ce48c"
-  integrity sha512-+nz7yGp2vw873AKZpwTqbzDevTs+z32wBzedUHdP6MBvTMkymiwQxZGDNkMQ2AeF5tkNs3t3SVelkVEIPLdjGg==
+"@foxswap/sdk@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@foxswap/sdk/-/sdk-1.2.3.tgz#0f03f67bdc08bb05705231ba3737d16bb3850b60"
+  integrity sha512-5Fk3yE7FXwiN/8sEwJ1eKc7Xqhac1B8Mk2/NUQLSW1AIsd1TxJH4uiQWOZaVUo0yUKZqZRubDHJWdXdysP/DGQ==
   dependencies:
     "@foxswap/core" "^1.0.1"
     big.js "^5.2.2"
